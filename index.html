@@ -1,0 +1,13 @@
+<?php
+
+#msqli
+$servidor = "localhost";
+$usuario = "root";
+$senha = "";
+$database = "aula_php";
+
+$conexao = myslqi_connect($servidor, $usuario, $senha, $database);
+
+if($conexao){
+	echo "Conectado com sucesso!";
+}
