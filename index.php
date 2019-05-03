@@ -24,6 +24,9 @@ switch ($pagina) {
 	case 'matriculas':
 		 include 'views/matriculas.php';
 		break;
+	case 'inserir_curso':
+		 include 'views/inserir_curso.php';
+		break;
 	default:
 		include 'views/home.php';
 		break;
