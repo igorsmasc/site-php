@@ -30,6 +30,9 @@ switch ($pagina) {
 	case 'inserir_aluno':
 		 include 'views/inserir_aluno.php';
 		break;
+	case 'inserir_matricula':
+		 include 'views/inserir_matricula.php';
+		break;
 	default:
 		include 'views/home.php';
 		break;
