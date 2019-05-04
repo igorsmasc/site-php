@@ -15,7 +15,7 @@
 
 						?> 
 				<td><a href="deleta_matricula.php?id_aluno_curso=<?php echo $linha['id_aluno_curso'
-				]; ?>">Deletar</a></td></tr>
+				]; ?>"><span style="color: Tomato;"><i class="fas fa-trash-alt"></i></span></a></td></tr>
 
 		<?php
 		}
