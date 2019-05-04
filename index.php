@@ -1,5 +1,8 @@
 <?php
 
+#iniciar sessão
+session_start();
+
 #Base de dados
 include 'db.php';
 
